@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import './item-details.css';
-import ErrorButton from "../error-button";
 import Spinner from "../spinner";
 import ErrorIndicator from "../error-indicator";
 
@@ -101,7 +100,6 @@ export default class ItemDetails extends Component {
                   })
             }
           </ul>
-          <ErrorButton />
         </div>
       </div>
     )
